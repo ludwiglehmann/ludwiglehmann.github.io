@@ -26,3 +26,36 @@
     
 </body>
 </html>
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flyaurant - Ihr fliegendes 3-Sterne-Restaurant</title>
+    <li><a href="about.html" class="flieder-button">Über uns</a></li>>
+</head>
+<body>
+    <div class="navi">
+        <img src="bilder/IMG_0322.PNG" alt="Logo" height="80">
+        <ul>
+            <li><a href="about.html" class="flieder-button">Über uns</a></li>
+            <li><a href="reservierung.html" class="flieder-button">Reservieren</a></li>
+        </ul>
+    </div>
+
+    <div class="content">
+        <h1>Willkommen!</h1>
+        <p>Dies ist die offizielle Seite von dem Flyaurant auf dem Olymp, an Bord des ultimativen gastronomischen Erlebnisses in luftiger Höhe! ...</p>
+        <img src="bilder/IMG_0312.PNG" width="1425" height="800" alt="Bild vom Flyaurant">
+    </div>
+
+    <script>
+        // Hier können Sie JavaScript-Code einfügen, falls benötigt
+    </script>
+</body>
+</html>
