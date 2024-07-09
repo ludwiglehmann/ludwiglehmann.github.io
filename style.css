@@ -1,24 +1,14 @@
-
-body {
-  background-color: #D3CDD7;
-  font-family: Verdana, sans-serif;
-  margin: 0;
-  padding: 0;
-}
-
 h1 {
   font-size: 25px;
   color: #007EA7;
   text-align: center;
 }
 
-p {
-  color: aliceblue;
-}
-
-img {
-  display: flex;
-  justify-content: left;
+body {
+  background-color: #D3CDD7;
+  font-family: Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
 .navi {
@@ -28,6 +18,28 @@ img {
   text-align: right;
   font-size: 20px;
   border-bottom: 5px solid #7678ED;
+}
+
+.content {
+  padding: 10px;
+  margin: 0;
+}
+
+.flieder-button {
+  background-color: #8693AB;
+  color: #add8e6;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px; /* Runderer Button */
+  font-size: 16px;
+  transition: color 0.3s;
+  margin-right: 10px;
+  text-decoration: none;
+  display: inline-block; /* Ensure buttons display properly */
+}
+
+.flieder-button:hover {
+  color: white;
 }
 
 .navi ul {
@@ -40,37 +52,16 @@ img {
 .navi ul li {
   display: inline;
   margin-right: 10px;
+  
 }
-
 .content {
-  padding: 10px;
-  margin: 0;
   flex: 1;
 }
-
-.flieder-button {
-  background-color: #8693AB;
-  color: #add8e6;
-  padding: 10px 20px;
-  border: none;
-  border-radius: 10px;
-  font-size: 16px;
-  transition: color 0.3s;
-  margin-right: 10px;
-  text-decoration: none;
-  display: inline-block;
-}
-
-.flieder-button:hover {
-  color: white;
-}
-
 footer {
   background-color: #333;
   color: white;
   padding: 20px 0;
 }
-
 .footer-content {
   max-width: 1200px;
   margin: 0 auto;
@@ -79,18 +70,15 @@ footer {
   align-items: center;
   flex-wrap: wrap;
 }
-
 .footer-section {
   margin: 10px;
 }
-
 .footer-form input[type="email"] {
   padding: 10px;
   width: 200px;
   border: none;
   border-radius: 4px 0 0 4px;
 }
-
 .footer-form button {
   padding: 10px 15px;
   background-color: #4CAF50;
@@ -99,6 +87,13 @@ footer {
   border-radius: 0 4px 4px 0;
   cursor: pointer;
 }
-
 .footer-form button:hover {
   background-color: #45a049;
+}
+p {
+color: aliceblue;
+}
+img {
+display: flex;
+justify-content: left;
+}
