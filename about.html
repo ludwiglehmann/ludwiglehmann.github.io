@@ -1,57 +1,56 @@
 <!DOCTYPE html>
 <html lang="de">
-    <link rel="stylesheet" href="styles.css">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Flyaurant - Über uns</title>
-    
+    <title>Meine Webseite</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="navi">
-        <ul>
-            <li><a href="index.html" class="flieder-button">Home</a></li>
-            <li><a href="reservierung.html" class="flieder-button">Reservieren</a></li>
-        </ul>
-    </div>
+<div class="navi">
+<ul>
+<li><a href="index.html" class="flieder-button">Home</a></li>
+<li><a href="reservierung.html" class="flieder-button">Reservieren</a></li>
+</ul>
+</div>
 
-    <div class="content">
-        <h1>Über uns</h1>
-        <p>Flyaurant ist das fliegende 3-Sterne-Restaurant, das Ihnen ein einzigartiges gastronomisches Erlebnis in luftiger Höhe bietet. Unsere Mission ist es, Ihnen nicht nur exquisite Gerichte, sondern auch unvergessliche Ausblicke und ein Gefühl von Freiheit zu bieten. Ob Sie über malerische Landschaften schweben oder pulsierende Städte erkunden, unser Team aus talentierten Küchenchefs und freundlichem Servicepersonal sorgt dafür, dass Ihr Aufenthalt bei uns zu einem unvergesslichen Erlebnis wird. Entdecken Sie die Welt der gehobenen Küche neu, während Sie auf Wolke sieben schweben.</p>
-        <img src="bilder /IMG_0316.PNG">
-    </div>
 
-    <script>
-        confirm("Bitte genehmigen Sie diese Cookies 🍪");
-    </script>
-        <footer>
-            <div class="footer-content">
-                <div class="footer-section">
-                    <h3>Kontaktieren Sie uns</h3>
-                    <p>Senden Sie uns eine E-Mail:</p>
-                    <form class="footer-form" action="#" method="POST">
-                        <input type="email" name="email" placeholder="Ihre E-Mail-Adresse" required>
-                        <button type="submit">Senden</button>
-                    </form>
-                </div>
-                <div class="footer-section">
-                    <h3>Folgen Sie uns</h3>
-                     <a href="https://www.tiktok.com/@the.real.editmaster2.0"><p>the.real.editmaster2.0</p></a>
-                </div>
-                <div class="footer-section">
-                    <h3>Adresse</h3>
-                    <p>Musterstraße 123<br>12345 Musterstadt</p>
-                </div>
-            </div>
-        </footer>
-    
-        <script>
-            document.querySelector('.footer-form').addEventListener('submit', function(e) {
-                e.preventDefault();
-                var email = this.querySelector('input[type="email"]').value;
-                alert('Vielen Dank! Wir werden uns bald bei ' + email + ' melden.');
-                this.reset();
-            });
-        </script>
+<div class="content">
+<h1>Über uns</h1>
+<p>Flyaurant ist das fliegende 3-Sterne-Restaurant, das Ihnen ein einzigartiges gastronomisches Erlebnis in luftiger Höhe bietet. Unsere Mission ist es, Ihnen nicht nur exquisite Gerichte, sondern auch unvergessliche Ausblicke und ein Gefühl von Freiheit zu bieten. Ob Sie über malerische Landschaften schweben oder pulsierende Städte erkunden, unser Team aus talentierten Küchenchefs und freundlichem Servicepersonal sorgt dafür, dass Ihr Aufenthalt bei uns zu einem unvergesslichen Erlebnis wird. Entdecken Sie die Welt der gehobenen Küche neu, während Sie auf Wolke sieben schweben.</p>
+<img src="" alt="">
+</div>
+<script>
+confirm("Bitte genehmigen Sie diese Cookies 🍪");
+</script>
+<footer>
+<div class="footer-content">
+<div class="footer-section">
+<h3>Kontaktieren Sie uns</h3>
+<p>Senden Sie uns eine E-Mail:</p>
+<form class="footer-form" action="#" method="POST">
+<input type="email" name="email" placeholder="Ihre E-Mail-Adresse" required>
+<button type="submit">Senden</button>
+</form>
+</div>
+<div class="footer-section">
+<h3>Folgen Sie uns</h3>
+<a href="https://www.tiktok.com/@the.real.editmaster2.0"><p>the.real.editmaster2.0</p></a>
+</div>
+<div class="footer-section">
+<h3>Adresse</h3>
+<p>Musterstraße 123<br>12345 Musterstadt</p>
+</div>
+</div>
+</footer>
+
+<script>
+document.querySelector('.footer-form').addEventListener('submit', function(e) {
+e.preventDefault();
+var email = this.querySelector('input[type="email"]').value;
+alert('Vielen Dank! Wir werden uns bald bei ' + email + ' melden.');
+this.reset();
+});
+</script>
 </body>
 </html>
