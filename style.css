@@ -91,9 +91,14 @@ footer {
   background-color: #45a049;
 }
 p {
-color: aliceblue;
+color: black;
 }
 img {
 display: flex;
-justify-content: left;
+align-items: left;
+}
+.imagecontainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
